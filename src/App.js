@@ -1,14 +1,12 @@
 import { BrowserRouter as Router , Routes,Route } from 'react-router-dom';
 import './App.css';
-import Login from './components/pages/Login';
-import Signup from './components/Signup';
+import Headere from './Components/Header/Headere';
 
 function App() {
   return (
-    <div className="App">
-     
-      <Login/>
-      
+    // Bem 
+    <div className="text-6xl font-bodyFont ">
+      <Headere/>
     </div>
   );
 }
